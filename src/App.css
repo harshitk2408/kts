@@ -1,0 +1,37 @@
+/* html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./Assets/truckbg.jpeg");
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -1;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg{
+  /* background-color: red; */
+  height: 95vh;
+  width: 50vw;
+  position: absolute;
+  left: 50%;
+  z-index: -2;
+}
+html{
+  width: 100vw;
+}
+p {
+  color: black;
+  font-size: 300px;
+}
+@media only screen and (max-width: 600px) {
+  .bg {
+    display: none;
+  }
+}
